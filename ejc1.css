@@ -1,3 +1,6 @@
+body{
+    background-color: black !important;
+}
 .formulario{
     border: solid 2px blue;
 }
@@ -8,13 +11,17 @@
 }
 .encabezado h2{
     text-align: center;
+    background-color: rgb(221, 9, 9);
 }
 img{
-    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; */
     /* border-radius: 30%; */
     width: 8%;
     margin-left: 1em;
     margin-right: 2em;
+}
+header nav div{
+    background-color: blanchedalmond;
 }
 header{
     margin-top: 1%;
@@ -27,6 +34,7 @@ form i{
     margin-right: 2px;
 }
 .principal{
+    background-color: rgb(58, 53, 202);
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-radius: 1%;
     display: flex;
@@ -35,11 +43,12 @@ form i{
     margin: 5px;
 }
 .principal div{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
     border-radius: 3%;
     margin: 10px;
-    height: 250px;
-    width: 20%;
+    height: 200px;
+    width: 10%;
+    display: flex;
 }
 .principal div img{
     margin: 10px;
